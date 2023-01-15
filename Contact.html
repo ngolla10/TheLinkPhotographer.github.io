@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html> 
+
+        <head> 
+        <title> The Link Photographer </title>
+        <link rel = "shortcut icon"   type = "image/png"   href= "Photography/Z.png">
+       
+       <style> 
+  *{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+     }
+
+  body{
+      background:#fff;
+      font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    }
+  h1{
+      color: rgb(26, 24, 24);
+      text-align: center;
+      font-size: 45px;
+    }
+
+  h3{
+      color: rgb(255, 0, 0);
+      opacity: 0.5;
+      text-align: center;
+    }
+   
+   h2{
+     color:rgb(255, 0, 0);
+     opacity: 0.5;
+     transform: translateX(2%);
+     font-weight: 200;
+     font-size: 35px;
+   }
+
+   .Home
+   {
+    color:rgb(255, 0, 0);
+     opacity: 0.5;
+     transform: translateX(70%);
+     font-weight: 200;
+     font-size: 35px;
+   }
+
+   nav{
+    width: 170%;
+    height: 100px;
+    background-color:black;
+    }
+
+
+  ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    }
+
+
+    ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 0 20px;
+
+    }
+
+    ul li a:hover {
+    color: rgb(240, 70, 70);
+    }
+   
+
+    form{
+           margin-top: 50px;
+           transition: all 4s ease-in-out;
+       }
+
+    .form-control{
+        transform: translateX(65%);
+           width: 600px;
+           background: transparent;
+           border: none;
+           outline: none;
+           border-bottom: 1px solid rgb(12, 12, 12);
+           color: rgb(255, 0, 0); 
+           opacity: 0.5;
+           font-size: 18px;
+           margin-bottom: 16px;
+       }
+
+    form .submit{
+
+            background:rgb(255, 0, 0);
+            border-color: transparent;
+            color: rgb(241, 235, 235);
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            height: 50px;
+            margin-top: 20px;
+       }
+
+    form .submit:hover{
+           background-color: rgb(110, 100, 100);
+           cursor: pointer; 
+       }
+
+    
+       html,body{
+            height: 100%;
+
+        }
+
+        #container{
+            min-height: 100%
+        }
+
+        
+     .Home-button
+     {
+     font-size: 45px;
+     font-weight: 200;
+     color:rgb(250, 0, 0);
+     transform: translateX(69%);
+     }
+
+      
+     .social-media {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 15px;
+            font-size: 35px;
+            color: rgb(255, 0, 0);
+            text-align: left;
+            transform: translateX(3%);
+            font-weight: 200;
+            
+        }
+
+        .follow-me{
+          color:rgb(255, 0, 0);
+           font-weight: 200;
+           font-size: 70px;
+           transform: translateX(4%);
+           text-align: left;
+         
+        }
+
+     
+     .logo2
+     {
+       transform: translateX(600px);
+     }
+
+
+        </style>
+    
+        </head>
+        <body> 
+    
+        <nav>
+            <ul>
+    
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Collections.html">Portfolio</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <br /><br />
+          <h1> The Link Photographer</h1>
+          <h3> A Photography Portfolio Webpage</h3>
+          <br/><br/><br/><br/><br/><br/>
+
+
+          <div id = "container">
+
+              <div class = "contact-form">
+
+                <form id = "contact-form"  method = "post" action = "contact-form-handler.php">
+                    <input name = "name" type = "text" class = "form-control" placeholder="Your Name and Email" required><br>  
+    
+                    <textarea name= "message" class="form-control" placeholder="Message" rows="4" required></textarea><br> 
+    
+                    <input type = "submit" class = "form-control submit" value="SEND MESSAGE" required><br> 
+    
+                 </form>
+
+              </div>
+        </div>
+        
+
+        <div class = "follow-me">
+          Follow Me:
+      </div>
+  
+        <div class = "social-media">
+          <ul><a href="https://www.instagram.com/thelinkphotographer/?hl=en"> <img src="Photography/Y.png" width = "50" height= "50">: @thelinkphotographer</a></ul>
+      </div>  
+
+    <div class = "Home-button"> 
+
+      <a href="index.html"> Home >>> </a></li>
+
+    </div>
+    
+   
+    <br>
+
+
+    <div class = logo2>
+      <img src= "Photography/F.JPG" width="210" height="210">
+    </div>
+  
+
+        
+
+
+
+        </body>
+</html>
